@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.eunjin.myapplication.MainActivity">
 
-    <TextView
-        android:layout_width="150dp"
-        android:layout_height="75dp"
-        android:background="#efc7ea"
-        android:text="Hello world 안녕"
-        android:textSize="45sp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:scaleType="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/whale" />
 
 </LinearLayout>
